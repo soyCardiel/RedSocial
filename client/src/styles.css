@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*main header*/
+
+.navigation {
+    padding: 0px !important;
+}
+
+.navigation .navbar {
+    border-radius: 0px !important;
+}
