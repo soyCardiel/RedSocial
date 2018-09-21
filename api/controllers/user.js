@@ -58,16 +58,16 @@ function saveUser(req, res) {
                 }
 
                 if (userStored) {
-                    res.status(200).send({ user: userStored });
+                    return res.status(200).send({ user: userStored });
                 } else {
-                    res.status(404).send({ message: 'no se ha registrado el usuario' });
+                    return res.status(404).send({ message: 'no se ha registrado el usuario' });
 
                 }
             });
 
         });
     } else {
-        res.status(200).send({
+        return res.status(200).send({
             message: 'Datos incompletos'
         })
     }

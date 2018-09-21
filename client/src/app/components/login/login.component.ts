@@ -3,12 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
     selector: 'login',
     templateUrl: './login.component.html'
-});
+})
 
-export class loginComponent implements OnInit {
+export class LoginComponent implements OnInit {
     public title: string;
     ngOnInit() {
-        console.log('se cargo el componente');
+        console.log('se cargo el componente login');
     }
 
     constructor() {
